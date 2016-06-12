@@ -1,0 +1,43 @@
+/**
+ * Custom carousel with thumbs
+ */
+
+#carousel-dog {
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+}
+
+#carousel-dog .carousel-indicators {
+  display: none;
+}
+
+#carousel-dog img {
+  height: 400px;
+  width: 400px;
+}
+
+#carousel-dog .item {
+  height: 400px;
+  width: 400px;
+}
+
+img.thumb {
+  max-height: 100px;
+  float: left;
+}
+
+.thumbs {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+.carousel-inner {
+  height: none;
+}
+.carousel-inner > .item {
+  height: none;
+}

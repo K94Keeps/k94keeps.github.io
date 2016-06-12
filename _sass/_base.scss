@@ -47,6 +47,13 @@ img {
     vertical-align: middle;
 }
 
+.hover-zoom {
+  transition: all 0.1s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}
 
 
 /**
@@ -91,15 +98,9 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
         text-decoration: underline;
     }
 }
@@ -204,3 +205,4 @@ pre {
         }
     }
 }
+
