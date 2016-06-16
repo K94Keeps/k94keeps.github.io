@@ -5,6 +5,12 @@ title: Adoptable Dogs
 <div class="container marketing">
   <h1>{{ page.title }}</h1>
   <div class="row">
+    <div class="col-lg-12">
+      <p>Find out more about our adoption process and fill out an applicaiton, <a href="/adopt/">here</a>.</p>
+    </div>
+  </div>
+  <br />
+  <div class="row">
     {% for p in site.pages %}
       {% if p.type == "dog" %}
         <div class="col-lg-4">
