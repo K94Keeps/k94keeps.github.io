@@ -1,0 +1,8 @@
+/* Make it so the images don't distort to fill the slide, but instead cover it
+   and maintain aspect ratio. Requires the item to have a
+   style="background-image: url(...)" attribute. */
+.carousel .item {
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}

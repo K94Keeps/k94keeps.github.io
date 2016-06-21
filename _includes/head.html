@@ -19,6 +19,10 @@
   {% for stylesheet in layout.custom_css %}
     <link href="{{ stylesheet }}" rel="stylesheet">
   {% endfor %}
+  {% for stylesheet in page.custom_css %}
+    <link href="{{ stylesheet }}" rel="stylesheet">
+  {% endfor %}
+
 
   <!-- Social-media glyph/icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

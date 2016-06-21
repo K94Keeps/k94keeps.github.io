@@ -1,5 +1,7 @@
 ---
 layout: default
+custom_css:
+ - /css/carousel-overrides.css
 ---
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -9,8 +11,7 @@ layout: default
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class="first-slide" src="https://placekitten.com/1520/400" alt="First slide">
+    <div class="item active" style="background-image: url(https://placekitten.com/1520/400);">
       <div class="container">
         <div class="carousel-caption">
           <h1>Example headline.</h1>
@@ -19,8 +20,7 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="item">
-      <img class="second-slide" src="https://placekitten.com/1520/600" alt="Second slide">
+    <div class="item" style="background-image: url(https://placekitten.com/1520/600);">
       <div class="container">
         <div class="carousel-caption">
           <h1>Another example headline.</h1>
@@ -29,8 +29,7 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="item">
-      <img class="third-slide" src="https://placekitten.com/1520/700" alt="Third slide">
+    <div class="item" style="background-image: url(https://placekitten.com/1520/800);">
       <div class="container">
         <div class="carousel-caption">
           <h1>One more for good measure.</h1>
