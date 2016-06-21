@@ -22,11 +22,7 @@ We are looking for volunteers to help with:
  * training
  * community outreach...and more!
 
-TODO
+If you'd like to help out, please apply below!
 
-To volunteer, fill out our application online or download and fill out a PDF. 
-The PDF can be submitted either:
+<script type="text/javascript" src="http://form.jotform.us/jsform/31838338567163"></script>
 
- 1. email to info@k94keeps.org
- 1. fax to 312-829-2774
- 1. mail to: K9 4 KEEPS, PO Box 577932, Chicago, IL 60657
