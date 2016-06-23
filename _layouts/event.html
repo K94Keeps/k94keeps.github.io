@@ -1,6 +1,30 @@
 ---
-layout: standard
+layout: default
 ---
-TODO
-
-{{ content }}
+<div class="container">
+  <h1>{{ page.event-name }}</h1>
+  <div class="row">
+    <div class="col-lg-4">
+      <div id="google-maps-canvas" style="height:300px; width:100%;">
+        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q={{ p.placequery }}&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU">
+        </iframe>
+      </div>
+      <br />
+      <dl class="dl-horizontal">
+        <dt>When</dt> <dd>{{ page.date | date: '%B %d, %Y' }}</dd>
+        <dt>Where</dt> <dd>{{ page.location }}</dd>
+      </dl>
+    </div>
+    <div class="col-lg-8">
+      {{ content }}
+      <br />
+      <div class="clearfix">
+        <p class="pull-right"><a class="btn btn-success" disabled>Buy tickets!</a></p>
+      </div>
+      <br />
+      <div class="alert alert-info">
+        <p>All proceeds go driectly to K9 4 KEEPS Dog Rescue!</p>
+      </div>
+    </div>
+  </div>
+</div>

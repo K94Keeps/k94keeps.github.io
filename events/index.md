@@ -12,7 +12,7 @@ title: Upcoming Events
           <h2>{{ p.event-name }}</h2>
           <p>
             {{ p.location }}<br />
-            {{ p.date }}
+            {{ p.date | date: '%B %d, %Y' }}
           </p>
           <p><a class="btn btn-default" href="{{ p.url }}" role="button">More details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
