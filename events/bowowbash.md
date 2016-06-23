@@ -12,4 +12,4 @@ Food, drinks, and fun are all included in your ticket price.
 
 We can't do what we do without your support! We hope to see you there! 
 
-This year our sponsors include [Tito's Vodka](http://titosvodka.com/), [Goose Island Beer](http://www.gooseisland.com/), and [La Sirena Clandestina](www.lasirenachicago.com/).
+This year our sponsors include [Tito's Vodka](http://titosvodka.com/), [Goose Island Beer](http://www.gooseisland.com/), and [La Sirena Clandestina](http://www.lasirenachicago.com/).
