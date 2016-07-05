@@ -4,7 +4,7 @@ breed: Shepherd Mix
 gender: Female
 age: 10 years old
 images:
- - /images/xica.jpg
+ - /images/dogs/xica/xica.jpg
  - /images/dogs/xica/0133_02.jpg
  - /images/dogs/xica/0133_03.jpg
  - /images/dogs/xica/0133_04.jpg

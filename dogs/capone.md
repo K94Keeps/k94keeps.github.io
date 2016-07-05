@@ -4,7 +4,7 @@ breed: Bulldog Mix
 gender: Male
 age: 4 years old
 images:
- - /images/capone.jpg
+ - /images/dogs/capone/capone.jpg
  - /images/dogs/capone/0032_01.jpg
  - /images/dogs/capone/0032_05.jpg
  - /images/dogs/capone/0032_10.jpg

@@ -1,0 +1,13 @@
+/* Increase nav header to make space for the logo overflow */
+.navbar-wrapper {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Oversized logo to overflow the nav */
+.logo-header-img {
+  max-height: 7em;
+  position: absolute;
+  top: -2em;
+}
+

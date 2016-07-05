@@ -4,7 +4,7 @@ breed: Pit Bull
 gender: Female
 age: 4 years old
 images:
- - /images/nova.jpg
+ - /images/dogs/nova/nova.jpg
  - /images/dogs/nova/0071_02.jpg
  - /images/dogs/nova/0071_03.jpg
  - /images/dogs/nova/0071_04.jpg
