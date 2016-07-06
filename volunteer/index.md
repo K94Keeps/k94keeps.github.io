@@ -24,5 +24,5 @@ We are looking for volunteers to help with:
 
 If you'd like to help out, please apply below!
 
-<script type="text/javascript" src="http://form.jotform.us/jsform/31838338567163"></script>
+<script type="text/javascript" src="https://form.jotform.us/jsform/31838338567163"></script>
 
