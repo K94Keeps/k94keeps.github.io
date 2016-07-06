@@ -2,7 +2,7 @@
 dog-name: Lilac's 7 Puppies
 breed: Pit Mix
 gender: 5 Male, 2 Female
-age: <6 Months
+age: Born June 2016
 images:
  - /images/dogs/lilacs-puppies/4.jpg
  - /images/dogs/lilacs-puppies/1.jpg

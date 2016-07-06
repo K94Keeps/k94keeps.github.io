@@ -2,7 +2,7 @@
 dog-name: Lilac
 breed: Pit Mix
 gender: Female
-age: ??? TODO
+age: 2 years old
 images:
  - /images/dogs/lilac/lilac.png
  - /images/dogs/lilac/1.jpg

@@ -1,8 +1,8 @@
 ---
 dog-name: Lucy
-breed: ??? TODO
+breed: Terrier Mix
 gender: Female
-age: ??? TODO
+age: 1.5 years old
 images:
  - /images/dogs/lucy/lucy.jpg
  - /images/dogs/lucy/1.jpg

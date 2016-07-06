@@ -1,8 +1,8 @@
 ---
 dog-name: Tyson
-breed: ??? TODO
+breed: Pit Bull / Am Staff Mix
 gender: Male
-age: ??? TODO
+age: 4 years old
 images:
  - /images/dogs/tyson/tyson.png
  - /images/dogs/tyson/1.jpg
