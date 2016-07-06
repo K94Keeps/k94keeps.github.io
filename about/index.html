@@ -6,12 +6,19 @@ permalink: /about/
 people:
  - 
     name: Caroline
+    title: President
     pic: http://k94keeps.org/images/board_caroline.png
     desc: Caroline is the Vice President of K9 4 KEEPS. Caroline started as a volunteer dog walker a few months after K9 4 KEEPS’ launch and has handled many of our dogs as they have gone through training. She became a board member in March of 2013. When Caroline isn’t doing rescue, she is involved in animal-assisted therapy with Louie and protection sport training with Kaiser. Her pit bull, Gypsy (adopted from K9 4 KEEPS) is also deaf, so she has a soft spot for bully breeds and special-needs rescues. Caroline’s favorite part of rescue is walking a dog out of an open-access shelter to freedom. 
  -
     name: Erin
+    title: Vice President
     pic: http://k94keeps.org/images/board_erin.png
     desc: Erin is the Event Coordinator of K9 4 KEEPS. Erin started volunteering as a dog handler at adoption events and works tirelessly to market, plan, and execute fundraising and social events. Erin became a board member in September of 2014. When Erin isn’t doing rescue, she is involved in protection sport training with Mishy, running, and taking Mishy and Rocky for marathon walks followed by marathon couch snuggle sessions. Erin’s favorite part of rescue is being the voice for those who don’t have one. 
+ -
+    name: Mikey
+    title: Finance Officer
+    pic: https://upload.wikimedia.org/wikipedia/commons/7/7d/Question_opening-closing.svg
+    desc: Who am I?
 ---
 
 K9 4 KEEPS, NFP believes that bringing a dog into your family should be forever. For keeps. We are a 100% volunteer run, 501(c)(3) non-profit organization dedicated to dog rescue. We believe rescue should begin with education and counseling of dog owners regarding proper handling and training of their dogs to support positive, forever relationships. K9 4 KEEPS dogs are surrendered by their owners or rescued from Chicagoland area kill shelters and are provided vetting, housing, foster and adoption services.
@@ -22,7 +29,7 @@ K9 4 KEEPS, NFP believes that bringing a dog into your family should be forever.
   {% assign mod = forloop.index | modulo: 2 %}
   <div class="row">
     <div class="col-md-7 {% if mod == 0 %}col-md-push-5{% endif %}" >
-      <h3>{{ person.name }}</h3>
+      <h3><strong>{{ person.name }}</strong>&nbsp;{{ person.title }}</h3>
       <p>{{ person.desc }}</p>
     </div>
     <div class="col-md-5 {% if mod == 0 %}col-md-pull-7{% endif %}">
