@@ -31,6 +31,11 @@ custom_css:
       <div class="clearfix">
         <p class="pull-right"><a class="btn btn-info" href="{{ page.fb-album }}" target="_blank">{{ page.dog-name }}'s Facebook Album</a></p>
       </div>
+      {% if page.insta %}
+        <div class="clearfix">
+          <p class="pull-right"><a class="btn btn-info" href="https://www.instagram.com/{{ page.insta }}" target="_blank">{{ page.dog-name }}'s on Instagram!</a></p>
+        </div>
+      {% endif %}
       <div class="clearfix">
         <p class="pull-right"><a class="btn btn-success" href="/adopt/">Adopt {{ page.dog-name }}</a></p>
       </div>

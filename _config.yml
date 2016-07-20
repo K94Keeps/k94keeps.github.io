@@ -48,3 +48,7 @@ defaults:
 # Build settings
 markdown: kramdown
 safe: true
+
+gems:
+  - jekyll-sitemap
+
