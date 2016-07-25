@@ -11,8 +11,6 @@ You can earn money for K9 4 KEEPS just by walking around! Whether you're...
  * Walking your dog
  * Just walking (like going to the store)
 
-(PS: need an excuse to walk around? Consider [volunteering](/volunteer/) to walk our dogs!)
-
 Every mile you walk, “Walk for a Dog” (wooftrax.com) will donate to K9 4 KEEPS. Donations range from 11 cents to 25 cents per mile depending on the number of walkers for an organization. The more people walking the more they donate!  
 
 What if I don’t have a dog? No problem!! You can still walk for dogs by choosing the “Walk for Cassie” option after enrolling in the app for the first time. Or, create your dream dog as a walking companion by going to the setup tab and adding a dog. So every walk you take whether you have a dog or not, can benefit us!
