@@ -12,7 +12,7 @@ title: Adoptable Dogs
   <br />
   <div class="row">
     {% for p in site.pages %}
-      {% if p.type == "dog" %}
+      {% if p.type == "dog" and p.adopted != true %}
         <div class="col-md-4 text-center">
           <a href="{{ p.url }}"><img class="img-circle hover-zoom" src="{{ p.images[0] }}" alt="{{ p.dog-name }}" width="140" height="140"></a>
           <h2>{{ p.dog-name }}</h2>

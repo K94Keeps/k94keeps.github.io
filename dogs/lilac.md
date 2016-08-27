@@ -15,6 +15,7 @@ images:
  - /images/dogs/lilac/8.jpg
 
 fb-album: https://www.facebook.com/K94Keeps/photos/?tab=album&album_id=1177385755639515
+adopted: true
 ---
 Lilac can be pretty timid, but there is a reason. Police found her in her "owner's" home crammed in a small crate full of urine. They were told she was left in the cage because the "owner" was tired of hitting her because she didn't listen or behave. She was not allowed in the yard because she would find ways of escaping. This story doesn't even touch on the numerous prior offenses her "owner" had or his time spent in prison. We have a chance, as an animal loving community, to right the wrong done to this sweet girl.
 

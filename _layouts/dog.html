@@ -4,7 +4,11 @@ custom_css:
  - /css/dog.css
 ---
 <div class="container">
-  <h1>Meet {{ page.dog-name }}</h1>
+  {% if page.adopted %}
+    <h1>{{ page.dog-name }} is ADOPTED!</h1>
+  {% else %}
+    <h1>Meet {{ page.dog-name }}</h1>
+  {% endif %}
   <div class="row">
     <div class="col-lg-5">
       <!-- carousel -->
@@ -28,17 +32,21 @@ custom_css:
     <div class="col-lg-7">
       {{ content }}
       <br />
-      <div class="clearfix">
-        <p class="pull-right"><a class="btn btn-info" href="{{ page.fb-album }}" target="_blank">{{ page.dog-name }}'s Facebook Album</a></p>
-      </div>
+      {% if page.fb-album %}
+        <div class="clearfix">
+          <p class="pull-right"><a class="btn btn-info" href="{{ page.fb-album }}" target="_blank">{{ page.dog-name }}'s Facebook Album</a></p>
+        </div>
+      {% endif %}
       {% if page.insta %}
         <div class="clearfix">
           <p class="pull-right"><a class="btn btn-info" href="https://www.instagram.com/{{ page.insta }}" target="_blank">{{ page.dog-name }}'s on Instagram!</a></p>
         </div>
       {% endif %}
-      <div class="clearfix">
-        <p class="pull-right"><a class="btn btn-success" href="/adopt/">Adopt {{ page.dog-name }}</a></p>
-      </div>
+      {% if page.adopted != true %}
+        <div class="clearfix">
+          <p class="pull-right"><a class="btn btn-success" href="/adopt/">Adopt {{ page.dog-name }}</a></p>
+        </div>
+      {% endif %}
       <br />
       <div class="alert alert-info">
         <p>All K9 4 KEEPS dogs are up to date on all vaccinations and are spayed/neutered, heartworm tested and microchipped by the time an adoption is finalized. (Puppies may not have their entire set of shots.)</p>

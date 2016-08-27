@@ -12,6 +12,7 @@ images:
  - /images/dogs/nova/0071_06.jpg
 fb-album: http://www.facebook.com/media/set/?set=a.792818657429562.1073741861.263518410359592&type=3
 insta: supernovapittie
+adopted: true
 ---
 Nova is our sweet girl we pulled from Animal Welfare League’s southside intake facility. She was adopted but her owner is no longer able to care for her. Nova is looking for a forever home! 
 
