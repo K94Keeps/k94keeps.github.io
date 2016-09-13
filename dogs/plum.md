@@ -4,6 +4,7 @@ breed: Pit Bull Terrier Mix
 gender: Female
 age: Young
 images:
+ - /images/dogs/plum/0.jpg
  - /images/dogs/plum/1.jpg
  - /images/dogs/plum/2.jpg
  - /images/dogs/plum/3.jpg
