@@ -10,6 +10,7 @@ images:
  - /images/dogs/henry/4.jpg
  - /images/dogs/henry/5.jpg
  - /images/dogs/henry/6.jpg
+adopted: true
 ---
 Surpise! Little did we know.....[Lilac](/dogs/lilac) was pregnant! Now she is the proud mama of 7 puppies! She is a very loving mama who has already been through so much, and we've got a long road ahead of us with all these little ones! Luckily, we won't have to send them to college, but they will eventually need food and vaccinations. They will also need loving foster and forever homes! 
 

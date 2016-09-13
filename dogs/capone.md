@@ -13,6 +13,7 @@ images:
  - /images/dogs/capone/0032_13.jpg
 
 fb-album: http://www.facebook.com/media/set/?set=a.477612622283502.111351.263518410359592&type=3
+adopted: true
 ---
 CAPONE is worried-if-he-can’t-see-you LOYAL, jump-on-you-and-smother-you-with-kisses LOVING and is searching for a FOREVER HOME where he can have the chance to be someone’s BEST FRIEND. He needs to be the only pet in an adult-only home with someone who has experience with his breed(s). 
 
