@@ -3,6 +3,11 @@ layout: standard
 title: Contact Us
 ---
 <div class="row">
+  <div class="col-md-12">
+    <div class="alert alert-info">
+      <p><strong>Looking to adopt or foster?</strong> Please fill out an <a href="/adopt/adoption-application">adoption application</a> or a <a href="/adopt/foster-application">foster application</a>!</p>
+    </div>
+  </div>
   <div class="col-md-4">
     <dl class="dl-horizontal">
       <dt>Email</dt>
