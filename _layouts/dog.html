@@ -42,6 +42,11 @@ custom_css:
           <p class="pull-right"><a class="btn btn-info" href="https://www.instagram.com/{{ page.insta }}" target="_blank">{{ page.dog-name }}'s on Instagram!</a></p>
         </div>
       {% endif %}
+      {% if page.yc-page %}
+        <div class="clearfix">
+          <p class="pull-right"><a class="btn btn-info" href="{{ page.yc-page }}" target="_blank">Donate to {{ page.dog-name }} on YouCaring</a></p>
+        </div>
+      {% endif %}
       {% if page.adopted != true %}
         <div class="clearfix">
           <p class="pull-right"><a class="btn btn-success" href="/adopt/">Adopt {{ page.dog-name }}</a></p>
