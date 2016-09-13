@@ -4,6 +4,7 @@ breed: Pit Bull Terrier & Australian Kelpie Mix
 gender: Male
 age: Young
 images:
+ - /images/dogs/boomer/0.jpg
  - /images/dogs/boomer/1.jpg
  - /images/dogs/boomer/2.jpg
  - /images/dogs/boomer/3.jpg
