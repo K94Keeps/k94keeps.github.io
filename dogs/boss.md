@@ -10,7 +10,9 @@ images:
  - /images/dogs/boss/4.jpg
  - /images/dogs/boss/5.jpg
  - /images/dogs/boss/6.jpg
+
 fb-album: https://www.facebook.com/K94Keeps/posts/1201679259876831
+adopted: true
 ---
 Boss is a 108-pound male German Shepherd who is around 6 years old. Boss was found by one of our board members walking down the sidewalk with his tail tucked up under his legs in one of the worst neighborhoods on Chicago's West Side.
 
