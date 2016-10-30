@@ -10,6 +10,7 @@ images:
  - /images/dogs/blue/4.jpg
 fb-album: https://www.facebook.com/263518410359592/photos/?tab=album&album_id=1250097118368378
 yc-page: https://www.youcaring.com/blue-baloo-of-k94keeps-dog-rescue-635786
+adopted: true
 ---
 Blue was found by the Chicago Police Department living in a park on the West Side of Chicago. His "owners" dumped him there one day and came back the next to take of his collar and tags when they realized they had left them on him. 
 

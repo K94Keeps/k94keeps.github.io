@@ -19,6 +19,7 @@ images:
  - /images/dogs/lucy/12.jpg
 
 fb-album: https://www.facebook.com/K94Keeps/photos/?tab=album&album_id=1177365125641578 
+adopted: true
 ---
 Lucy is the sweetest little baby seal faced lover girl. This little one was thrown out of a car on Lake Shore Drive, but thankfully was saved by a Chicago Police Officer, and we are so happy that she found her way to us at K94Keeps.
 

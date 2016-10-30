@@ -13,6 +13,7 @@ images:
  - /images/dogs/simon/7.jpg
 
 fb-album: https://www.facebook.com/263518410359592/photos/?tab=album&album_id=1267131353331621
+adopted: true
 ---
 Simon is a 13 week old mix breed dog who is all love. He is confident and funny and loves to play.
 
