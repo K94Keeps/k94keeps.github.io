@@ -8,18 +8,12 @@ with us. If you have 1 hour a week to volunteer or 20, your help will make a dif
 
 We are looking for volunteers to help with:
 
- * dog walking
  * fostering
  * dog transporting
- * home visiting
  * administrative work
  * copy and grant writing
  * pet photography
  * public relations
- * event planning & coordinating for fundraising and adoption events
- * foster and adoption counseling
- * foster and adoption coordinating
- * training
  * community outreach...and more!
 
 If you'd like to help out, please apply below!
