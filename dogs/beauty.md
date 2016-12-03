@@ -1,6 +1,6 @@
 ---
 dog-name: Beauty
-breed: Boxer / Chihuahua Mix
+breed: Boxer / Pit Mix
 gender: Female
 age: 3 months old
 images:
