@@ -15,18 +15,18 @@
           <ul class="nav navbar-nav pull-right">
             <li {% if page.url == "/" %}class="active"{% endif %}><a href="/">Home</a></li>
             <li {% if page.url contains "/dogs/" %}class="active"{% endif %}><a href="/dogs/">Dogs</a></li>
-            <li class="dropdown {% if page.url contains "/adopt/" %}active{% endif %}">
-              <a href="/adopt/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Adopt <span class="caret"></span></a>
+            <li {% if page.url contains "/adopt/" %}class="active"{% endif %}><a href="/adopt/">Adopt</a></li>
+            <li class="dropdown {% if page.url contains "/volunteer/" %}active{% endif %}">
+              <a href="/volunteer/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Volunteer <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="/adopt/">Process</a></li>
+                <li><a href="/volunteer">Volunteer</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Applications</li>
-                <li><a href="/adopt/adoption-application">Adoption Application</a></li>
-                <li><a href="/adopt/foster-application">Foster Application</a></li>
+                <li><a href="/volunteer/volunteer-application">Volunteer Application</a></li>
+                <li><a href="/volunteer/foster-application">Foster Application</a></li>
               </ul>
             </li>
             <li {% if page.url contains "/events/" %}class="active"{% endif %}><a href="/events/">Events</a></li>
-            <li {% if page.url contains "/volunteer/" %}class="active"{% endif %}><a href="/volunteer/">Volunteer</a></li>
             <li {% if page.url contains "/gear/" %}class="active"{% endif %}><a href="/gear/">Gear</a></li>
             <li class="dropdown {% if page.url contains "/about/" %}active{% endif %}">
               <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>

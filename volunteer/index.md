@@ -14,9 +14,8 @@ We are looking for volunteers to help with:
  * copy and grant writing
  * pet photography
  * public relations
- * community outreach...and more!
+ * community outreach
+ * ... and more!
 
-If you'd like to help out, please apply below!
-
-<script type="text/javascript" src="https://form.jotform.us/jsform/31838338567163"></script>
+If you'd like to help out, please fill out the [volunteer application](/volunteer/volunteer-application) or the [foster application](/volunteer/foster-application).
 

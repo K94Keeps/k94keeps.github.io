@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Adoption Process
+title: Adoption
 ---
 We want you to adopt a pet who can enjoy a lifetime of love with you, so we take special measures to ensure that your potential future pet is the best match for you and your family. We have set up the following procedures for anyone wishing to foster and/or adopt one of our dogs.
 
@@ -16,7 +16,7 @@ To be considered for fostering and/or adopting a K9 4 KEEPS dog, you must:
 
 ## Procedure
 
-Start by filling out our [foster application](/adopt/foster-application) or [adoption application](/adopt/adoption-application).
+Start by filling out the application below. If you'd like to foster, there's a separate [foster application](/volunteer/foster-application).
 
  * understand that the completion of this application does not guarantee the foster or adoption of a K9 4 KEEPS dog
  * know that the applicants that seem to be the best fit for each particular dog will be contacted by a K9 4 KEEPS volunteer by phone or email to set up an initial meeting
@@ -35,3 +35,6 @@ Start by filling out our [foster application](/adopt/foster-application) or [ado
  * take the dog home on the date of adoption
  * spend up to an hour with an adoption counselor to discuss the responsibility of owning a dog and making your relationship with your dog a lifetime commitment
 
+# Adoption Application
+
+<script type="text/javascript" src="https://form.jotform.com/jsform/63037024647150"></script>

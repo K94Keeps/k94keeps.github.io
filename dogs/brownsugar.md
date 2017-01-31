@@ -10,6 +10,8 @@ images:
  - /images/dogs/brownsugar/3.png
  - /images/dogs/brownsugar/4.png
  - /images/dogs/brownsugar/5.png
+ - /images/dogs/brownsugar/6.png
+ - /images/dogs/brownsugar/7.png
 
 fb-album: https://www.facebook.com/263518410359592/photos/?tab=album&album_id=1356839641027458
 ---
