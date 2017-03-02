@@ -11,5 +11,6 @@ images:
  - /images/dogs/boomer/4.png
 
 fb-album: https://www.facebook.com/K94Keeps/photos/?tab=album&album_id=1241624509215639
+adopted: true
 ---
 Boomer (fka Sir Elton) was very scared at CACC, but he is doing well in his foster home! His foster family says he is a very good boy and learns very quickly! He is good with kids and other dogs and.... THOSE EARS! 
