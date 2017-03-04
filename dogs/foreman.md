@@ -4,6 +4,10 @@ breed: Pit Mix
 gender: Male
 age: 7 years old
 images:
+ - /images/dogs/foreman/0.png
+ - /images/dogs/foreman/0a.png
+ - /images/dogs/foreman/0b.png
+ - /images/dogs/foreman/0c.png
  - /images/dogs/foreman/1.jpg
  - /images/dogs/foreman/2.jpg
  - /images/dogs/foreman/3.jpg
@@ -29,3 +33,5 @@ Despite the abuse and neglect he has endured for probably his entire life, Forem
 Foreman would probably be okay with the right dog-he did well meeting a female his size, and a tiny chihuahua. 
 
 Please share Foreman so that he can get the loving home he has deserved for so long. He needs to live out his golden years knowing he will never be abused or neglected again. 
+
+Professional pictures by [Kirstin LaRoche](https://www.facebook.com/K94Keeps/posts/1440303072681114).
