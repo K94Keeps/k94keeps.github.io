@@ -18,6 +18,7 @@ images:
  - /images/dogs/tyson/7.jpg
 
 fb-album: https://www.facebook.com/K94Keeps/photos/?tab=album&album_id=1177337752310982
+adopted: true
 ---
 Tyson is low rider with a big head and a huge heart. He is four years old, loves the ladies, and is looking for a forever home.
 
