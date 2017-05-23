@@ -19,6 +19,8 @@ images:
  - /images/dogs/foreman/9.jpg
 fb-album: https://www.facebook.com/263518410359592/photos/?tab=album&album_id=1253727731338650
 insta: fetchingforeman
+yc-page: https://www.youcaring.com/foreman-811400
+adoptapet: http://www.adoptapet.com/pet/18104843
 ---
 Are you looking for a sweetie snuggle bear? Foreman the Safe Humane Court Case Dog is your guy! This 7-year old pit bull was found by the Chicago Police on the West Side, emaciated and living in a closet with a female dog who was also rescued. 
 
