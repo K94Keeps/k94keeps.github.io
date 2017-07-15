@@ -7,7 +7,6 @@ images:
  - /images/dogs/nala/1.png
  - /images/dogs/nala/2.png
  - /images/dogs/nala/3.png
- - /images/dogs/nala/4.png
 
 fb-album: https://www.facebook.com/K94Keeps/photos/a.280675585310541.71053.263518410359592/1557386467639440/?type=3&theater
 petfinder: https://www.petfinder.com/petdetail/38690322
