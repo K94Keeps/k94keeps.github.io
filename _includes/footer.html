@@ -1,5 +1,8 @@
 <div class="container">
   <hr class="featurette-divider">
+  <div class='text-center' style="margin: 80px 0;">
+    <button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#mcModal">Subscribe to our mailing list</a>
+  </div>
   <footer>
     <p class="pull-right">
       {% include icon-instagram.html username=site.instagram_username %}
@@ -9,4 +12,33 @@
     <p>&copy; 2016 {{ site.title }}</p>
   </footer>
 </div>
+
+<div class="modal fade" id="mcModal" tabindex="-1" role="dialog" aria-labelledby="mcModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="mcModalLabel">Subscribe</h4>
+      </div>
+      <div class="modal-body">
+        <p>Keep up with the latest from K9 4 Keeps! We'll only email you about once per month.</p>
+        <form action="https://k94keeps.us14.list-manage.com/subscribe/post?u=6a6d42dddbe28e0efaf9978aa&amp;id=f4171fd66c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="form-group">
+            <label for="mce-EMAIL">Email Address</label>
+            <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6a6d42dddbe28e0efaf9978aa_f4171fd66c" tabindex="-1" value=""></div>
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-info">
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
 {% include foot.html %}
