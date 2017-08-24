@@ -4,6 +4,7 @@ breed: Pit Mix
 gender: Male
 age: Young
 images:
+ - /images/dogs/rocky/0.png
  - /images/dogs/rocky/1.png
  - /images/dogs/rocky/2.png
  - /images/dogs/rocky/3.png
