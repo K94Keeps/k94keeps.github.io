@@ -26,7 +26,14 @@
                 <li><a href="/volunteer/foster-application">Foster Application</a></li>
               </ul>
             </li>
-            <li {% if page.url contains "/events/" %}class="active"{% endif %}><a href="/events/">Events</a></li>
+            <li class="dropdown {% if page.url contains "/events/" %}active{% endif %}">
+              <a href="/events/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/events/">Events</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/events/dartsfordogs">Darts for Dogs</a></li>
+              </ul>
+            </li>
             <li {% if page.url contains "/gear/" %}class="active"{% endif %}><a href="/gear/">Gear</a></li>
             <li class="dropdown {% if page.url contains "/about/" %}active{% endif %}">
               <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
@@ -35,6 +42,7 @@
                 <li><a href="/about/contact">Contact Us</a></li>
               </ul>
             </li>
+
             <li><p class='navbar-btn' style="margin-left: 15px;"><a class='btn btn-info' href="/donate/">Donate</a></p></li>
           </ul>
         </div>
