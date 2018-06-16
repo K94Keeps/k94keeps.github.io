@@ -16,9 +16,10 @@ title: Contact Us
       <dd>312.221.9285</dd>
       <dt>Mailing address</dt>
       <dd>
-        K9 4 KEEPS, NFP<br />
-        PO Box 577932<br />
-        Chicago, IL 60657<br />
+        K94KEEPS, NFP<br />
+        6351 West Montrose Ave<br />
+        #332<br />
+        Chicago, IL 60634<br />
         <br />
         <em>(we do not have a facility)</em>
       </dd>
