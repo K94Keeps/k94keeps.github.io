@@ -49,6 +49,6 @@ defaults:
 markdown: kramdown
 safe: true
 
-gems:
+plugins:
   - jekyll-sitemap
 
