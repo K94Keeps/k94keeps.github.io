@@ -20,16 +20,27 @@ if (!id) {
   fail();
 }
 
-const url = `https://api.petfinder.com/pet.get?format=json&key=834f77ab998a9623d5abbc5c71cf908b&callback=?&id=${id}`;
-$.getJSON(url)
+const client_id = 'MPK3ETCiXDCUNQY4rVSGEfQFssitKMUxDn9ecWiIdbZJ9MQUWE';
+const client_secret = 'JUZJIYvmUwvjxh6lDF9KZfZRyF7gsVwWs22TkVGJ';
+const post_data = `grant_type=client_credentials&client_id=${client_id}&client_secret=${client_secret}`;
+$.post('https://api.petfinder.com/v2/oauth2/token', post_data)
+  .then(function(tokenResponse) {
+    return $.ajax({
+      url: `https://api.petfinder.com/v2/animals/${id}`,
+      dataType: 'json',
+      headers: {
+        'Authorization': `Bearer ${tokenResponse.access_token}`,
+      },
+    });
+  })
   .done(function(data) {
-    const pet = data.petfinder.pet;
-    const pics = pet.media.photos.photo.map(url => url.$t.substr(0, url.$t.indexOf('?'))).filter((val, index, self) => { return self.indexOf(val) === index; });
-    const available = pet.status.$t === 'A';
-    const title = available ? `Meet ${pet.name.$t}` : `${pet.name.$t} is adopted!`;
+    const pet = data.animal;
+    const pics = pet.photos.map(photo => photo.full);
+    const available = pet.status === 'adoptable';
+    const title = available ? `Meet ${pet.name}` : `${pet.name} is adopted!`;
     const adoptButton = available ? `
             <div class="clearfix">
-              <p class="pull-right"><a class="btn btn-success" href="/adopt/">Adopt ${pet.name.$t}</a></p>
+              <p class="pull-right"><a class="btn btn-success" href="/adopt/">Adopt ${pet.name}</a></p>
             </div>` : '';
 
     let carousel = `
@@ -72,10 +83,10 @@ $.getJSON(url)
           <!-- carousel -->
         </div>
         <div class="col-lg-7">
-          ${pet.description.$t}
+          <p>${pet.description}</p>
           <br />
             <div class="clearfix">
-              <p class="pull-right"><a class="btn btn-info" href="https://www.petfinder.com/petdetail/${pet.id.$t}" target="_blank">See ${pet.name.$t} on Petfinder</a></p>
+              <p class="pull-right"><a class="btn btn-info" href="https://www.petfinder.com/petdetail/${pet.id}" target="_blank">See ${pet.name} on Petfinder</a></p>
             </div>
             ${adoptButton}
           <br />

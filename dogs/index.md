@@ -17,20 +17,32 @@ title: Adoptable Dogs
 </div><!-- /.container -->
 
 <script>
-$.getJSON('https://api.petfinder.com/shelter.getPets?format=json&key=834f77ab998a9623d5abbc5c71cf908b&callback=?&id=IL759')
+const client_id = 'MPK3ETCiXDCUNQY4rVSGEfQFssitKMUxDn9ecWiIdbZJ9MQUWE';
+const client_secret = 'JUZJIYvmUwvjxh6lDF9KZfZRyF7gsVwWs22TkVGJ';
+const post_data = `grant_type=client_credentials&client_id=${client_id}&client_secret=${client_secret}`;
+$.post('https://api.petfinder.com/v2/oauth2/token', post_data)
+  .then(function(tokenResponse) {
+    return $.ajax({
+      url: 'https://api.petfinder.com/v2/animals?organization=IL759&limit=100&status=adoptable',
+      dataType: 'json',
+      headers: {
+        'Authorization': `Bearer ${tokenResponse.access_token}`,
+      },
+    });
+  })
   .done(function(data) {
-    const pets = data.petfinder.pets.pet.sort((a, b) => a.name.$t.localeCompare(b.name.$t));
+    const pets = data.animals.sort((a, b) => a.name.localeCompare(b.name));
     for (const pet of pets) {
       const template = `
         <div class="col-md-4 text-center">
-          <a href='/dogs/view?id=${pet.id.$t}'><img class="img-circle hover-zoom" src="http://photos.petfinder.com/photos/pets/${pet.id.$t}/1/" alt="${pet.name.$t}" width="140" height="140" style='object-fit: cover'></a>
-          <h2>${pet.name.$t}</h2>
+          <a href='/dogs/view?id=${pet.id}'><img class="img-circle hover-zoom" src="${pet.photos[0].medium}" alt="${pet.name}" width="140" height="140" style='object-fit: cover'></a>
+          <h2>${pet.name}</h2>
           <p>
-            ${pet.sex.$t === 'F' ? 'Female' : 'Male'}<br />
-            ${pet.breeds.breed.length ? pet.breeds.breed.map((a) => a.$t).join(', ') : pet.breeds.breed.$t}<br />
-            ${pet.age.$t}
+            ${pet.gender}<br />
+            ${[pet.breeds.primary, pet.breeds.secondary].filter(a => a).join(', ')}<br />
+            ${pet.age}
           </p>
-          <p><a class="btn btn-default" href="/dogs/view?id=${pet.id.$t}" role="button">More details &raquo;</a></p>
+          <p><a class="btn btn-default" href="/dogs/view?id=${pet.id}" role="button">More details &raquo;</a></p>
         </div><!-- /.col-md-4 -->
       `
       $(template).appendTo($('#doglist'));
