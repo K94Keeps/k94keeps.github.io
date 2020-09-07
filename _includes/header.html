@@ -26,7 +26,16 @@
                 <li><a href="/volunteer/foster-application">Foster Application</a></li>
               </ul>
             </li>
+            <li class="dropdown {% if page.url contains "/events/" %}active{% endif %}">
+              <a href="/events/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/events/">Events</a></li>
+                <li><a href="/events/golf">First Annual Golf Tournament</a></li>
+              </ul>
+            </li>
+            <!-- Single event link w/o dropdown ...
             <li {% if page.url contains "/events/" %}class="active"{% endif %}><a href="/events/">Events</a></li>
+            ... end single event link w/o dropdown --!>
             <li class="dropdown {% if page.url contains "/about/" %}active{% endif %}">
               <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
               <ul class="dropdown-menu">
