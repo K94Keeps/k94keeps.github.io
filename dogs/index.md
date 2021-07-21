@@ -6,7 +6,7 @@ title: Adoptable Dogs
   <h1>{{ page.title }}</h1>
   <div class="row">
     <div class="col-md-12">
-      <p>Find out more about our adoption process and fill out an applicaiton, <strong><a href="/adopt/">here</a></strong>.</p>
+      <p>Find out more about our adoption process and fill out an application, <strong><a href="/adopt/">here</a></strong>.</p>
     </div>
   </div>
   <br />
@@ -45,7 +45,6 @@ $.post('https://api.petfinder.com/v2/oauth2/token', post_data)
   })
   .done(function(data) {
     const pets = data.animals.sort((a, b) => a.name.localeCompare(b.name));
-    console.log(pets);
     if (!pets || !pets.length) {
       $(`<p>No dogs are ready for adoption right now, but see the note above!</p>`).appendTo($('#doglist'));
     }
